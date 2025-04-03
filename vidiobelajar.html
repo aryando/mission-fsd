@@ -2,22 +2,24 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <meta charset name="viewport" content ="widht-device-widht, initial-scale=1.0" />
+    <meta lang="id" />
+    <meta charset name="viewport" content ="width-device-width, initial-scale=1.0" />
     <title>Masuk ke Akun</title>
 </head>
-<link rel="stylesheet" href="stylesheet.css"
+<link rel="stylesheet" href="style.css"
 <body>
-    <h1>Masuk ke Akun</h1>
-    <p class="sub">Yuk, lanjut masuk ke videobelajar.</p>
-
     <form>
+        <h1>Masuk ke Akun</h1>
+        <p class="sub">Yuk, lanjutin masuk ke videobelajar.</p>
+
+    
         <div class="form-group">
-            <label for="email">E-mail *</label>
+            <label for="email">E-Mail <span class="red-star">*</span></label>
             <input type="email" id="email" name="email" required>
         </div>
 
         <div class="form-group">
-            <label for password">Kata Sandi*</label>
+            <label for="password">Kata Sandi <span class="red-star">*</span></label>
             <input type="password" id="password" name="password" required>
         </div>
 
@@ -29,9 +31,8 @@
         <button type="button" class="btn"
         style="background-color: #c7ffca; color: #2bd33c">Daftar</button>
 
-        <div class="divider">
-            <span>atau</span>
-        </div>
+        <div class="divider"
+        style="color:black">atau</div>
 
 
         <button type="button" class="google-btn">
